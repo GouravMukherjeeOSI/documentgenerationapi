@@ -35,7 +35,9 @@ const path = require("path")
 const multer = require("multer") 
 const app = express() 
 const PDFServicesSdk = require('@adobe/pdfservices-node-sdk');
-
+const rootpath = {
+    root: path.join(__dirname)
+};
 // View Engine Setup 
 app.set("views",path.join(__dirname,"views")) 
 app.set("view engine","ejs") 
@@ -74,7 +76,7 @@ var storage = multer.diskStorage({
     }
   })
 
-app.post('/upload',upload.single('file'),(req,res)=>{
+app.post('/documentgenerate',upload.single('file'),(req,res,next)=>{
 		console.log("Recieved Req")
       //  console.log(req.file);
         var filename = req.file.filename;
@@ -112,6 +114,15 @@ documentMergeOperation.execute(executionContext)
     });
     console.log("Document Generated Successfully");
    // res.send({ "status": "PDF Generated Successfully" });
+   res.sendFile("./generated/ENFL0023 1.pdf", rootpath, function (err) {
+    if (err) {
+        next(err);
+    } else {
+        next();
+        console.log('Sent:');
+      
+    }
+});
 });
 	
 // Take any port number of your choice which 
