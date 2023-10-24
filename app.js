@@ -127,7 +127,7 @@ documentMergeOperation.execute(executionContext)
 	
 // Take any port number of your choice which 
 // is not taken by any other process 
-app.listen(3000,function(error) { 
+app.listen(process.env.PORT,function(error) { 
 	if(error) throw error 
 		console.log("Server created Successfully on PORT 8080") 
 }) 
