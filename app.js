@@ -63,9 +63,18 @@ const maxSize = 1 * 10000 * 10000;
 	
 
 
-app.get("/",function(req,res){ 
-	res.render("Signup"); 
-}) 
+app.post('/', (req, res) => {
+   
+    console.log(req.body);
+    const data=req.body;
+    if(JSON.stringify(data) != '{}'){
+        res.send(data);
+        //echoing the request data back as response
+    }
+    else{
+        res.send('No data Received');
+    }
+});
 	
 var storage = multer.diskStorage({
     destination: function (req, file, cb) {
@@ -76,10 +85,11 @@ var storage = multer.diskStorage({
     }
   })
 
-app.post('/documentgenerate',upload.single('file'),(req,res,next)=>{
+app.post('/documentgenerate',(req,res,next)=>{
+    console.log(JSON.stringify(req.headers));
 		console.log("Recieved Req")
       //  console.log(req.file);
-        var filename = req.file.filename;
+     /*   var filename = req.file.filename;
         var doctype = req.body.docgentype;
         var payload = req.body.payload;
         console.log(payload);
@@ -112,6 +122,7 @@ documentMergeOperation.execute(executionContext)
             console.log('Exception encountered while executing operation', err);
         }
     });
+    */
     console.log("Document Generated Successfully");
    // res.send({ "status": "PDF Generated Successfully" });
    res.sendFile("./generated/ENFL0023 1.pdf", rootpath, function (err) {
@@ -127,7 +138,7 @@ documentMergeOperation.execute(executionContext)
 	
 // Take any port number of your choice which 
 // is not taken by any other process 
-app.listen(process.env.PORT,function(error) { 
+app.listen(3000,function(error) { 
 	if(error) throw error 
 		console.log("Server created Successfully on PORT 8080") 
 }) 
