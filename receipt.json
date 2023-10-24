@@ -1,0 +1,270 @@
+{
+  "afData": {
+    "afBoundData": {
+      "data": {
+        "casewrapper": {
+          "metadata": {
+            "participantId": null,
+            "agentUIPath": "/tmp/fd/fm/upload/apidata.json_cae6157e-d728-3cee-8f49-7e9a89480091",
+            "subCategory": null,
+            "causeNumber": null,
+            "caseId": null
+          },
+          "ncpparent": {
+            "insurance": null,
+            "lastName": "WILLNOW",
+            "drivingLicenseNumber": "",
+            "percentageShareTotalWai": null,
+            "externalMemberId": "0007645043",
+            "ssn": "001-79-0796",
+            "licenseHolder": null,
+            "eyeColor": "Blue",
+            "attorneyFirstName": null,
+            "birthState": "Indiana",
+            "divorceCounty": null,
+            "id": "0033R000007IV5VQAW",
+            "hairColor": "Blonde",
+            "mpiNumber": "0007645043",
+            "marriedDate": null,
+            "email": "ncp@ncp.com",
+            "height": "5'11\"",
+            "identificationMarks": "TATTOOS",
+            "race": "White",
+            "attorneyRepresentation": null,
+            "sex": "Male",
+            "weight": "175",
+            "divorceCity": null,
+            "pleadingRelationship": "NA",
+            "birthCity": "SHELBYVILLE",
+            "pleadingRole": "Respondent",
+            "divorceDate": null,
+            "mainAddress": {
+              "zip": "46176",
+              "country": "US",
+              "city": "SHELBYVILLE",
+              "stateName": "IN",
+              "line": "4835 W 100 N",
+              "type": "Mailing",
+              "line3": null,
+              "line2": null,
+              "line1": "4835 W 100 N",
+              "countyName": null
+            },
+            "birthDate": "12/23/1993",
+            "bornOutOfWedlock": null,
+            "firstName": "TEALU",
+            "attorneyLastName": null,
+            "divorceState": null,
+            "birthCounty": null,
+            "phone": {
+              "mobile": null,
+              "main": "(765) 894-5689",
+              "fax": null
+            },
+            "maskedSsn": "XXX-XX-0796",
+            "attorneyMiddleName": null,
+            "memberRole": "Non Custodial Party",
+            "age": "29"
+          },
+          "courtorder": {
+			"pleadingsCourtName": "Indiana Judicial Branch"
+		  },
+          "countyoffices": {
+            "clerkOffice": null,
+            "collectionUnit": null,
+            "countyOffice": {
+              "number": null,
+              "siteUrl": null,
+              "address": {
+                "zip": "46131",
+                "country": "UNITED STATES",
+                "city": "FRANKLIN",
+                "stateName": "IN",
+                "line": "1 CAISSON DR STE A",
+                "type": null,
+                "line3": null,
+                "line2": null,
+                "line1": "1 CAISSON DR STE A",
+                "countyName": "Johnson"
+              },
+              "phone": {
+                "mobile": null,
+                "main": "(317) 346-4551",
+                "fax": "(317) 736-5709"
+              },
+              "contact": null,
+              "name": "Johnson County IV-D Prosecutor's Office",
+              "fipsCode": "18081",
+              "countyName": "Johnson"
+            },
+            "prosecutorOffice": {
+              "number": null,
+              "siteUrl": null,
+              "address": {
+                "zip": "46131",
+                "country": "UNITED STATES",
+                "city": "FRANKLIN",
+                "stateName": "IN",
+                "line": "1 CAISSON DR STE A",
+                "type": null,
+                "line3": null,
+                "line2": null,
+                "line1": "1 CAISSON DR STE A",
+                "countyName": "Johnson"
+              },
+              "phone": {
+                "mobile": null,
+                "main": "(317) 346-4551",
+                "fax": "(317) 736-5709"
+              },
+              "contact": null,
+              "name": "Johnson County IV-D Prosecutor's Office",
+              "fipsCode": "18081",
+              "countyName": "Johnson"
+            },
+            "countyName": "Johnson"
+          },
+          "lienholder": null,
+          "error": null,
+          "cpparent": {
+            "insurance": null,
+            "lastName": "BARCELONA",
+            "drivingLicenseNumber": "",
+            "percentageShareTotalWai": null,
+            "externalMemberId": "0001171193",
+            "ssn": "001-96-0462",
+            "licenseHolder": null,
+            "eyeColor": "Brown",
+            "attorneyFirstName": null,
+            "birthState": null,
+            "divorceCounty": null,
+            "id": "0033R000007IV1DQAW",
+            "hairColor": "Black",
+            "mpiNumber": "0001171193",
+            "marriedDate": null,
+            "email": "kaelinwagers24@gmail.com",
+            "height": "5'07\"",
+            "identificationMarks": "Piercings",
+            "race": "Native American",
+            "attorneyRepresentation": null,
+            "sex": "Female",
+            "weight": "150",
+            "divorceCity": null,
+            "pleadingRelationship": "NA",
+            "birthCity": "Fort Wayne",
+            "pleadingRole": "Petitioner",
+            "divorceDate": null,
+            "mainAddress": {
+              "zip": "46131",
+              "country": "US",
+              "city": "FRANKLIN",
+              "stateName": "IN",
+              "line": "2030 FRANKLIN COVE CT APT 4",
+              "type": "Mailing",
+              "line3": null,
+              "line2": null,
+              "line1": "2030 FRANKLIN COVE CT APT 4",
+              "countyName": null
+            },
+            "birthDate": "05/07/1997",
+            "bornOutOfWedlock": "YES",
+            "firstName": "MARKQUELL",
+            "attorneyLastName": null,
+            "divorceState": null,
+            "birthCounty": null,
+            "phone": {
+              "mobile": null,
+              "main": "(317) 560-1592",
+              "fax": null
+            },
+            "maskedSsn": "XXX-XX-0462",
+            "attorneyMiddleName": null,
+            "memberRole": "Custodial Party",
+            "age": "26"
+          },
+          "applicant": null,
+          "task": null,
+          "children": {
+            "child6": null,
+            "child4": null,
+            "child5": null,
+            "child2": null,
+            "child3": null,
+            "child1": {
+              "lastName": "BARCELONA",
+              "race": null,
+              "sex": "Female",
+              "fullName": "NIVDAQPR BARCELONA",
+              "birthCity": "INDIANAPOLIS",
+              "birthDate": "03/09/2020",
+              "ssn": "005-20-0184",
+              "firstName": "NIVDAQPR",
+              "birthState": "Indiana",
+              "middleName": null,
+              "id": "0033R000007IVGmQAO",
+              "relationship": null,
+              "age": "3"
+            }
+          },
+          "casefinance": null,
+          "recipient": {
+            "personName": null,
+            "address": null,
+            "name": null,
+            "recipientPersonName": null,
+            "id": "",
+            "type": null,
+            "email": null
+          },
+          "valuemap": {
+            "footerlabel": "Oct 16, 2023|ENFL0024",
+            "qrcode": "INvest|cae6157e-d728-3cee-8f49-7e9a89480091|6|Pleadings|0008332037|||",
+            "generateddate": "10/16/2023",
+            "fmtotherparticipant": null,
+            "fmtotherparties": "",
+            "docname": null,
+            "templateid": "ENFL0024",
+            "barcode": "**BARCODE**",
+            "fmtattorneyparticipant": null
+          },
+          "ncpparentemployer": null,
+          "enrollee": null,
+          "case": {
+            "shortReason": "NCP's Sole Income is from SSI",
+            "reasonDescription": null,
+            "arrearAsOfDate": null,
+            "arrearInterestTotal": "0.00",
+            "caseClosureDate": "04/02/2022",
+            "arrearTotal": "0.00",
+            "currentSupportTotal": "0.00",
+            "type": "Non-IV-D",
+            "assignedWorker": {
+              "firstName": "Cheuk-Kei",
+              "lastName": "Kwong",
+              "workEmail": "cheuk-kei.kwong@dcs.in.gov",
+              "phone": {
+                "mobile": null,
+                "main": "999-999-9999",
+                "fax": "123-456-7890"
+              },
+              "title": "ISETS IT Support"
+            },
+            "arrearCummulative": "0.00",
+            "requestedActionDate": null,
+            "requestedAction": null,
+            "investCaseNumber": "0008332037",
+            "appealReceivedDate": null,
+            "closureNoticeSentDate": "01/20/2022",
+            "enrollmentInitiationDate": null,
+            "applicationDate": "03/29/2022"
+          },
+          "account": null,
+          "otherparent": null
+        }
+      }
+    },
+    "afUnboundData": {
+      "data": {}
+    }
+  }
+}

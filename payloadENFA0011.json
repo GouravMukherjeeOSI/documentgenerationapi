@@ -1,0 +1,89 @@
+{
+  "recipient": {
+    "type": "NCP",
+    "id": "0033R000007IV5VQAW",
+    "name": "TEALU WILLNOW",
+    "personName": "TEALU WILLNOW",
+    "address": {
+      "type": "Mailing",
+      "line": "4835 W 100 N",
+      "line1": "4835 W 100 N",
+      "city": "SHELBYVILLE",
+      "stateName": "IN",
+      "zip": "46176",
+      "country": "US",
+      "verifiedDate": "10/25/2021"
+    },
+    "email": "ncp@ncp.com",
+    "preferredCommunicationMethod": "Physical copy",
+    "recipientPersonName": {
+      "ssn": "001-79-0796",
+      "mpiNumber": "0007645043",
+      "externalMemberId": "0007645043",
+      "role": "Non Custodial Party",
+      "maskedSsn": "XXX-XX-0796",
+      "firstName": "TEALU",
+      "lastName": "WILLNOW",
+      "fullName": "TEALU WILLNOW",
+      "legalName": "TEALU WILLNOW"
+    }
+  },
+  "valuemap": {
+    "formid": "93d80d5f-6ebd-3bfd-8f07-d32ee62f1cdd",
+    "footerlabel": "Oct 23, 2023|ENFA0011",
+    "qrcode": "INvest|93d80d5f-6ebd-3bfd-8f07-d32ee62f1cdd|3|NCP|0008332037|0007645043||",
+    "generateddate": "10/23/2023",
+    "fmtotherparties": "",
+    "templateid": "ENFA0011",
+    "barcode": "**BARCODE**"
+  },
+  "countyoffices": {
+    "countyName": "Johnson",
+    "prosecutorOffice": {
+      "id": "0013R000006iPcVQAU",
+      "countyName": "Johnson",
+      "name": "Johnson County IV-D Prosecutor's Office",
+      "fipsCode": "18081",
+      "officeFipsCode": "12",
+      "address": {
+        "line": "1 CAISSON DR STE A",
+        "line1": "1 CAISSON DR STE A",
+        "city": "FRANKLIN",
+        "countyName": "Johnson",
+        "stateName": "IN",
+        "zip": "46131",
+        "country": "UNITED STATES"
+      },
+      "phone": {
+        "main": "(317) 346-4551",
+        "fax": "(317) 736-5709"
+      }
+    }
+  },
+  "case": {
+    "caseId": "a0z3R000000IJvJQAW",
+    "investCaseNumber": "0008332037",
+	"causeNumber": "0008332037",
+    "type": "Non-IV-D",
+    "assignedWorker": {
+      "workEmail": "cheuk-kei.kwong@dcs.in.gov",
+      "title": "ISETS IT Support",
+      "phone": {
+        "main": "999-999-9999",
+        "fax": "123-456-7890"
+      },
+      "firstName": "Cheuk-Kei",
+      "lastName": "Kwong"
+    },
+    "currentChildSupportOrderAmount": "100.00",
+    "arrearTotal": "250.00",
+    "arrearInterestTotal": "60.00",
+    "currentSupportTotal": "30.00",
+    "officeId": "0013R000006iPcVQAU",
+    "shortReason": "NCP's Sole Income is from SSI",
+    "caseClosureDate": "04/02/2022",
+    "closureNoticeSentDate": "01/20/2022",
+    "applicationDate": "03/29/2022",
+	  "lastPaymentDate": "06/02/2020"
+  }
+}
